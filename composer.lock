@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "afc81f06a7ce56229c34ac6920b7d273",
+    "content-hash": "fb1c656ece5ed0f823f8f3d1a170e6d9",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -2551,6 +2551,35 @@
                 }
             ],
             "time": "2022-01-04T00:13:07+00:00"
+        },
+        {
+            "name": "my/site",
+            "version": "dev-main",
+            "dist": {
+                "type": "path",
+                "url": "./DistributionPackages/My.Site",
+                "reference": "49572a007c36f0dede571bb9047492c172d087c9"
+            },
+            "require": {
+                "neos/neos": "*"
+            },
+            "suggest": {
+                "neos/seo": "*"
+            },
+            "type": "neos-site",
+            "extra": {
+                "neos": {
+                    "package-key": "My.Site"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "My\\Site\\": "Classes/"
+                }
+            },
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "neos/cache",
@@ -11363,11 +11392,12 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "neos/setup": 20,
-        "neos/neos-setup": 20
+        "neos/neos-setup": 20,
+        "my/site": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }

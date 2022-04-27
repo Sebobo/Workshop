@@ -32,7 +32,8 @@
 
         "neos/cli-setup": "~8.0.0",
         "neos/setup": "@dev",
-        "neos/neos-setup": "@dev"
+        "neos/neos-setup": "@dev",
+        "my/site": "@dev"
     },
     "require-dev": {
         "neos/buildessentials": "~8.0.0",

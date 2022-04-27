@@ -1,0 +1,21 @@
+{
+    "description": "",
+    "type": "neos-site",
+    "require": {
+        "neos/neos": "*"
+    },
+    "suggest": {
+        "neos/seo": "*"
+    },
+    "name": "my/site",
+    "autoload": {
+        "psr-4": {
+            "My\\Site\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "My.Site"
+        }
+    }
+}

@@ -1,0 +1,1 @@
+prototype(My.Site:Document.Page) < prototype(My.Site:Document.AbstractPage)
