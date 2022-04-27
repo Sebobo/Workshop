@@ -1,0 +1,25 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "source": "DistributionPackages/My.Site/Resources/Private/Scripts/site.ts",
+  "app": "DistributionPackages/My.Site/Resources/Public/Assets/site.js",
+  "targets": {
+    "main": false,
+    "default": {
+      "context": "browser",
+      "distDir": "DistributionPackages/My.Site/Resources/Public/Assets"
+    }
+  },
+  "repository": "https://Sebobo@github.com/Sebobo/Workshop.git",
+  "author": "Sebastian Helzle <sebastian@helzle.it>",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.5.0",
+    "parcel": "^2.5.0"
+  },
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build",
+    "start": "parcel"
+  }
+}

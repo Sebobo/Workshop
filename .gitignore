@@ -18,3 +18,5 @@
 /Tests/Selenium/settings.xml
 Build/Resources/Java/selenium-server-standalone*
 /"
+/.parcel-cache
+/node_modules

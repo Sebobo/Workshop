@@ -2,8 +2,8 @@ prototype(My.Site:Document.AbstractPage) < prototype(Neos.Neos:Page) {
   head {
     headTags = Neos.Fusion:Component {
       renderer = afx`
-        <meta http-equiv="x-ua-compatible" content="ie=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       `
     }
 
@@ -14,12 +14,12 @@ prototype(My.Site:Document.AbstractPage) < prototype(Neos.Neos:Page) {
 
     # Add stylesheets to your page
      stylesheets.site = afx`
-        <link rel="stylesheet" href={StaticResource.uri('My.Site', 'Public/site.css')} />
+      <link rel="stylesheet" href={StaticResource.uri('My.Site', 'Public/Assets/site.css')}/>
     `
 
     # Add header javascripts to your page
     javascripts.site = afx`
-        <link type="text/javascript" defer href={StaticResource.uri('My.Site', 'Public/site.js')} />
+      <script type="text/javascript" defer src={StaticResource.uri('My.Site', 'Public/Assets/site.js')}></script>
     `
   }
 
