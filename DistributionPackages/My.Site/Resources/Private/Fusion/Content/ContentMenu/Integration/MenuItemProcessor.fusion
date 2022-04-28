@@ -1,0 +1,10 @@
+prototype(My.Site:Helper.MenuItemProcessor) < prototype(Neos.Fusion:Map) {
+  items = ${{}}
+  itemRenderer = Neos.Fusion:DataStructure {
+    label = ${item.label}
+    uri = Neos.Neos:NodeUri
+    subItems = My.Site:Helper.MenuItemProcessor {
+      items = ${item.subItems}
+    }
+  }
+}

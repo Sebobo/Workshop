@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6823171280f05159ae750c3b0631f6e6",
+    "content-hash": "09bcef583e7f4b5cef534a3ac8d76358",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -2430,7 +2430,7 @@
             "dist": {
                 "type": "path",
                 "url": "./DistributionPackages/My.Site",
-                "reference": "cd526dda80424c59f243a24a855c9898ac08b77f"
+                "reference": "8c8c839dd09e5b57621aa1da5f0911ff598e4c4e"
             },
             "require": {
                 "neos/neos": "~8.0.0",
@@ -2438,7 +2438,8 @@
                 "neos/redirecthandler-databasestorage": "~5.0",
                 "neos/redirecthandler-neosadapter": "~4.2",
                 "neos/redirecthandler-ui": "~2.4",
-                "neos/seo": "~3.0"
+                "neos/seo": "~3.0",
+                "t3n/neos-debug": "*"
             },
             "type": "neos-site",
             "extra": {
@@ -7535,6 +7536,50 @@
                 }
             ],
             "time": "2022-01-26T16:32:32+00:00"
+        },
+        {
+            "name": "t3n/neos-debug",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/t3n/neos-debug.git",
+                "reference": "84ccee39a95a7e364f1b4748a53b42c212772ddd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/t3n/neos-debug/zipball/84ccee39a95a7e364f1b4748a53b42c212772ddd",
+                "reference": "84ccee39a95a7e364f1b4748a53b42c212772ddd",
+                "shasum": ""
+            },
+            "require": {
+                "neos/neos": "^7.0 || ^8.0"
+            },
+            "type": "neos-package",
+            "extra": {
+                "neos": {
+                    "package-key": "t3n.Neos.Debug",
+                    "loading-order": {
+                        "after": [
+                            "neos/neos"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "t3n\\Neos\\Debug\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Helper package to visualize debug inforamations for neos including fusion content cache",
+            "support": {
+                "issues": "https://github.com/t3n/neos-debug/issues",
+                "source": "https://github.com/t3n/neos-debug/tree/2.0.4"
+            },
+            "time": "2022-04-07T07:21:00+00:00"
         },
         {
             "name": "typo3fluid/fluid",

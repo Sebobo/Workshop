@@ -1,0 +1,8 @@
+prototype(My.Site:Content.Image.Presentation) < prototype(Neos.Fusion:Component) {
+  image = null
+  alt = ''
+
+  renderer = My.Site:Component.Figure {
+    @apply.props = ${props}
+  }
+}

@@ -1,0 +1,16 @@
+prototype(My.Site:Component.MenuLevel) < prototype(Neos.Fusion:Component) {
+  items = null
+
+  renderer = afx`
+    <ul>
+      <Neos.Fusion:Loop items={props.items} itemName="item">
+        <li>
+          <a href={item.uri}>{item.label}</a>
+          <My.Site:Component.MenuLevel items={item.subItems}/>
+        </li>
+      </Neos.Fusion:Loop>
+    </ul>
+  `
+
+  @if.hasItems = ${this.items}
+}

@@ -1,0 +1,15 @@
+body {
+  color: #fff;
+  background: #222;
+  font-family: Noto Sans, sans-serif;
+}
+
+body a {
+  color: #66f;
+}
+
+body a:hover {
+  color: #f66;
+}
+
+/*# sourceMappingURL=site.css.map */

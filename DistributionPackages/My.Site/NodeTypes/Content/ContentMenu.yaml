@@ -1,0 +1,8 @@
+My.Site:Content.ContentMenu:
+  final: true
+  superTypes:
+    Neos.Neos:Content: true
+    My.Site:Constraints.Page.Main: true
+  ui:
+    label: Menu
+    icon: list

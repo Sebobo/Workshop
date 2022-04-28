@@ -1,0 +1,13 @@
+prototype(My.Site:Component.Figure) < prototype(Neos.Fusion:Component) {
+  image = null
+  alt = ''
+
+  renderer = afx`
+    <figure>
+      <img src={props.image} alt={props.alt} />
+      <ficaption>Beschreibung des Bildes</ficaption>
+    </figure>
+  `
+
+  @if.hasImage = ${this.image}
+}

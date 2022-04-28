@@ -27,16 +27,13 @@ prototype(My.Site:Document.AbstractPage) < prototype(Neos.Neos:Page) {
     @context.node = ${this.node}
 
     # Define template properties
-    menu = Neos.Neos:Menu
-    content = Neos.Fusion:Component {
-      main = Neos.Neos:PrimaryContent {
-        nodePath = 'main'
-      }
-
-      renderer = afx`
-        {props.main}
-      `
-    }
+    header = afx`
+      <header>
+        <h1>{node.title}</h1>
+        <Neos.Neos:Menu />
+      </header>
+    `
+    content = Neos.Fusion:Join
 
     # Script includes before the closing body tag should go here
     javascripts = Neos.Fusion:Join

@@ -1,18 +1,18 @@
 prototype(My.Site:Component.Template.Default) < prototype(Neos.Fusion:Component) {
   # Property API
-  menu = ''
-  content = ''
+  header = Neos.Fusion:Join
+  content = Neos.Fusion:Join
+  footer = Neos.Fusion:Join
 
   # Template
   renderer = afx`
     <!-- change to your needs -->
     <header>
-      Header
-      <nav>{props.menu}</nav>
+      {props.header}
     </header>
     <main id="main">
       {props.content}
     </main>
-    <footer>Footer</footer>
+    <My.Site:Component.GlobalFooter />
   `
 }

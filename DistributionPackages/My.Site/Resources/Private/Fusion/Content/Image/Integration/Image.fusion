@@ -1,0 +1,16 @@
+prototype(My.Site:Content.Image) < prototype(Neos.Neos:ContentComponent) {
+  image = Neos.Neos:ImageUri {
+    asset = ${q(node).property('image')}
+    maximumWidth = 200
+  }
+  fallback = Neos.Fusion:ResourceUri {
+    path = 'resource://Neos.Neos/Public/Images/dummy-image.svg'
+    @if.inBackend = ${node.context.inBackend}
+  }
+  alt = 'Meine Bildbeschreibung'
+
+  renderer = My.Site:Content.Image.Presentation {
+    image = ${props.image ? props.image : props.fallback}
+    alt = ${props.alt}
+  }
+}

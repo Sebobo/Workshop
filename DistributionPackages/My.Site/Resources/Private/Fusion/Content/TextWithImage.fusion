@@ -1,7 +1,12 @@
 prototype(My.Site:Content.TextWithImage) < prototype(Neos.Neos:ContentComponent) {
-  image = Neos.Neos:ImageTag {
+  image = Neos.Neos:ImageUri {
     asset = ${q(node).property('image')}
     maximumWidth = 200
+
+    @process.fallback = Neos.Fusion:ResourceUri {
+      path = 'resource://Neos.Neos/Public/Images/dummy-image.svg'
+      @if.noImage = ${!q(node).property('image') && node.context.inBackend}
+    }
   }
 
   text = Neos.Neos:Editable {
@@ -11,7 +16,7 @@ prototype(My.Site:Content.TextWithImage) < prototype(Neos.Neos:ContentComponent)
   renderer = afx`
     <div>
       {props.text}
-      {props.image}
+      <My.Site:Component.Figure image={props.image} />
     </div>
   `
 }

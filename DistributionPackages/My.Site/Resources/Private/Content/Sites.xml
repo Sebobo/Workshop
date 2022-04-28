@@ -25,6 +25,85 @@
       <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T08:27:22+00:00</lastModificationDateTime>
       <properties/>
      </variant>
+     <node identifier="e476d109-7e39-4f49-acd5-0859be15c3e9" nodeName="node-kbh8ud0q3a728">
+      <variant sortingIndex="225" workspace="live" nodeType="My.Site:Content.ContentMenu" version="4" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2022-04-28T11:20:23+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:08+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:08+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+    </node>
+    <node identifier="1a8deffd-f4f5-4288-8c23-47e02eef6b05" nodeName="node-c1vtzuq7vipzg">
+     <variant sortingIndex="250" workspace="live" nodeType="My.Site:Document.Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:16+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:30+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:30+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">second-page</uriPathSegment>
+       <title __type="string">Second page</title>
+      </properties>
+     </variant>
+     <node identifier="a624f470-836f-62bf-ef9d-f1b994c137bb" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:16+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:30+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:30+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
+     <node identifier="c5c9ea38-0c19-4889-8e37-d4144b4a9fa7" nodeName="node-f55lzbf4qrisg">
+      <variant sortingIndex="200" workspace="live" nodeType="My.Site:Document.Page" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:26+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:30+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:30+00:00</lastPublicationDateTime>
+       <properties>
+        <uriPathSegment __type="string">noch-eine</uriPathSegment>
+        <title __type="string">Noch eine</title>
+       </properties>
+      </variant>
+      <node identifier="f23c5bfc-f89b-bbf1-a3cd-e8982942eba8" nodeName="main">
+       <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:26+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:30+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:30+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+      </node>
+     </node>
+    </node>
+    <node identifier="676cbd31-5886-4b99-a39c-f789b51d3efc" nodeName="node-mtkz3n1g8cpip">
+     <variant sortingIndex="300" workspace="live" nodeType="My.Site:Document.Page" version="3" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
+      <accessRoles __type="array"/>
+      <creationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:20+00:00</creationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:30+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:30+00:00</lastPublicationDateTime>
+      <properties>
+       <uriPathSegment __type="string">another-page</uriPathSegment>
+       <title __type="string">Another page</title>
+      </properties>
+     </variant>
+     <node identifier="19bcd6f4-7746-4d5b-9084-4a3eb19a3f80" nodeName="main">
+      <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+       <dimensions/>
+       <accessRoles __type="array"/>
+       <creationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:20+00:00</creationDateTime>
+       <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:30+00:00</lastModificationDateTime>
+       <lastPublicationDateTime __type="object" __classname="DateTime">2022-04-28T11:40:30+00:00</lastPublicationDateTime>
+       <properties/>
+      </variant>
+     </node>
     </node>
     <node identifier="a7ddefff-2d40-438a-b5ad-21059c35c6f5" nodeName="node-qe8a82sk2sd1y">
      <variant sortingIndex="200" workspace="live" nodeType="My.Site:Document.Page" version="2" removed="" hidden="" hiddenInIndex="">
@@ -47,6 +126,53 @@
        <lastPublicationDateTime __type="object" __classname="DateTime">2022-04-28T08:51:34+00:00</lastPublicationDateTime>
        <properties/>
       </variant>
+      <node identifier="9220a0f6-5b98-4e87-a0b1-c42099ffd207" nodeName="node-9h2l7yjeq9jby">
+       <variant sortingIndex="100" workspace="live" nodeType="My.Site:Content.Text" version="4" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2022-04-28T09:09:14+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T09:16:50+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2022-04-28T09:16:50+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">Dies ist mein erster Text!</text>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="4b036af8-653e-4427-8172-15355509c9ac" nodeName="node-qz87pv1o0ee8c">
+       <variant sortingIndex="50" workspace="live" nodeType="My.Site:Content.ContentMenu" version="3" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2022-04-28T12:28:06+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T12:28:08+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2022-04-28T12:28:08+00:00</lastPublicationDateTime>
+        <properties/>
+       </variant>
+      </node>
+      <node identifier="3ced1e67-c3a3-4b31-8b4c-4209ce6b108c" nodeName="node-srqby2ukozc07">
+       <variant sortingIndex="150" workspace="live" nodeType="My.Site:Content.Image" version="5" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2022-04-28T09:19:25+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T11:10:54+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2022-04-28T11:10:53+00:00</lastPublicationDateTime>
+        <properties>
+         <image __type="string"></image>
+        </properties>
+       </variant>
+      </node>
+      <node identifier="f0825ee3-576d-4695-a7e1-8e146cc612d1" nodeName="node-y8hvadhzlri4e">
+       <variant sortingIndex="200" workspace="live" nodeType="My.Site:Content.TextWithImage" version="7" removed="" hidden="" hiddenInIndex="">
+        <dimensions/>
+        <accessRoles __type="array"/>
+        <creationDateTime __type="object" __classname="DateTime">2022-04-28T09:30:53+00:00</creationDateTime>
+        <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T11:10:54+00:00</lastModificationDateTime>
+        <lastPublicationDateTime __type="object" __classname="DateTime">2022-04-28T11:10:53+00:00</lastPublicationDateTime>
+        <properties>
+         <text __type="string">Text mit Bild</text>
+         <image __type="object" __identifier="d405375e-51ca-49eb-b706-c33c1a0b9fc3" __classname="Neos\Media\Domain\Model\Image" __encoding="json">{&quot;__identity&quot;:&quot;d405375e-51ca-49eb-b706-c33c1a0b9fc3&quot;,&quot;__type&quot;:&quot;Neos\\Media\\Domain\\Model\\Image&quot;,&quot;title&quot;:&quot;&quot;,&quot;copyrightNotice&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;resource&quot;:{&quot;filename&quot;:&quot;IchQuadrat.jpg&quot;,&quot;collectionName&quot;:&quot;persistent&quot;,&quot;relativePublicationPath&quot;:&quot;&quot;,&quot;mediaType&quot;:&quot;image\/jpeg&quot;,&quot;sha1&quot;:&quot;dd683493001d7d3c29a6b18232f161dd32f79def&quot;,&quot;hash&quot;:&quot;dd683493001d7d3c29a6b18232f161dd32f79def&quot;,&quot;__identity&quot;:&quot;e90a8ff4-ba25-4956-9555-723cfd37224b&quot;},&quot;tags&quot;:[],&quot;assetCollections&quot;:[]}</image>
+        </properties>
+       </variant>
+      </node>
      </node>
     </node>
    </node>

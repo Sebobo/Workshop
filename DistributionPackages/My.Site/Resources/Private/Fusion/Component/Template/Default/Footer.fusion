@@ -1,0 +1,18 @@
+prototype(My.Site:Component.GlobalFooter) < prototype(Neos.Fusion:Renderer) {
+  renderPath = '/footer'
+}
+
+prototype(My.Site:Component.GlobalFooter.Renderer) < prototype(Neos.Fusion:Component) {
+  renderer = afx`
+    <footer>{props.footer}</footer>
+  `
+
+  @cache {
+    mode = 'cached'
+    entryIdentifier {
+      static = 'footer'
+    }
+  }
+}
+
+footer = My.Site:Component.GlobalFooter.Renderer

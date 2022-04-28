@@ -4,4 +4,12 @@ body {
 	font-family: "Noto Sans", sans-serif;
 	background: #222;
 	color: white;
+
+	a {
+		color: #6666ff;
+
+		&:hover {
+			color: #ff6666;
+		}
+	}
 }
