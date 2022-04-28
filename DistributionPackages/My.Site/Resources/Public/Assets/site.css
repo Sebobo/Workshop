@@ -1,3 +1,9 @@
+.content-menu {
+  color: #000;
+  background: #fff;
+  padding: 1rem;
+}
+
 body {
   color: #fff;
   background: #222;

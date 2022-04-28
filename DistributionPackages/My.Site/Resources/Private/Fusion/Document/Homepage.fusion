@@ -1,0 +1,10 @@
+prototype(My.Site:Document.Homepage) < prototype(My.Site:Document.AbstractPage) {
+  body {
+    content {
+      content = Neos.Neos:PrimaryContent {
+        nodePath = 'main'
+      }
+    }
+    footer = 'Footer content'
+  }
+}

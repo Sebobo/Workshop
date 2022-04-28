@@ -11,7 +11,8 @@
         }
     },
     "require": {
-        "my/site": "@dev"
+        "my/site": "@dev",
+        "shel/neos-terminal": "^0.7.2"
     },
     "repositories": {
         "distributionPackages": {
@@ -31,6 +32,7 @@
         "post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
     },
     "require-dev": {
-        "t3n/neos-debug": "^2.0"
+        "t3n/neos-debug": "^2.0",
+        "shel/nodetypes-analyzer": "^1.0"
     }
 }

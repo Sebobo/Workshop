@@ -2,7 +2,7 @@ prototype(My.Site:Component.ContentMenu.Renderer) < prototype(Neos.Fusion:Compon
   items = null
 
   renderer = afx`
-    <nav style="background: white; color: black; padding: 1rem">
+    <nav class="content-menu">
       <My.Site:Component.MenuLevel items={props.items} />
     </nav>
   `

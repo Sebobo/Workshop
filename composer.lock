@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "09bcef583e7f4b5cef534a3ac8d76358",
+    "content-hash": "b042408b63af605f24e483c16e237143",
     "packages": [
         {
             "name": "behat/transliterator",
@@ -1838,6 +1838,46 @@
             "time": "2021-10-11T09:18:27+00:00"
         },
         {
+            "name": "flowpack/fullpagecache",
+            "version": "2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Flowpack/Flowpack.FullPageCache.git",
+                "reference": "4d943ed5416eeec5421610a924bc736fb0f5b677"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Flowpack/Flowpack.FullPageCache/zipball/4d943ed5416eeec5421610a924bc736fb0f5b677",
+                "reference": "4d943ed5416eeec5421610a924bc736fb0f5b677",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/psr7": "~1.4",
+                "neos/neos": "^7.0 || ^8.0 || dev-master"
+            },
+            "type": "neos-package",
+            "extra": {
+                "neos": {
+                    "package-key": "Flowpack.FullPageCache"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Flowpack\\FullPageCache\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Cache full Neos page responses",
+            "support": {
+                "issues": "https://github.com/Flowpack/Flowpack.FullPageCache/issues",
+                "source": "https://github.com/Flowpack/Flowpack.FullPageCache/tree/2.1.1"
+            },
+            "time": "2022-04-12T15:08:07+00:00"
+        },
+        {
             "name": "friendsofphp/proxy-manager-lts",
             "version": "v1.0.7",
             "source": {
@@ -2029,32 +2069,29 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "2.2.1",
+            "version": "1.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "c94a94f120803a18554c1805ef2e539f8285f9a2"
+                "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/c94a94f120803a18554c1805ef2e539f8285f9a2",
-                "reference": "c94a94f120803a18554c1805ef2e539f8285f9a2",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/337e3ad8e5716c15f9657bd214d16cc5e69df268",
+                "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2.5 || ^8.0",
-                "psr/http-factory": "^1.0",
-                "psr/http-message": "^1.0",
-                "ralouphie/getallheaders": "^3.0"
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0",
+                "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
             },
             "provide": {
-                "psr/http-factory-implementation": "1.0",
                 "psr/http-message-implementation": "1.0"
             },
             "require-dev": {
-                "bamarni/composer-bin-plugin": "^1.4.1",
-                "http-interop/http-factory-tests": "^0.9",
-                "phpunit/phpunit": "^8.5.8 || ^9.3.10"
+                "ext-zlib": "*",
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.10"
             },
             "suggest": {
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
@@ -2062,10 +2099,13 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.2-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
                 "psr-4": {
                     "GuzzleHttp\\Psr7\\": "src/"
                 }
@@ -2104,11 +2144,6 @@
                     "name": "Tobias Schultze",
                     "email": "webmaster@tubo-world.de",
                     "homepage": "https://github.com/Tobion"
-                },
-                {
-                    "name": "Márk Sági-Kazár",
-                    "email": "mark.sagikazar@gmail.com",
-                    "homepage": "https://sagikazarmark.hu"
                 }
             ],
             "description": "PSR-7 message implementation that also provides common utility methods",
@@ -2124,7 +2159,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/2.2.1"
+                "source": "https://github.com/guzzle/psr7/tree/1.8.5"
             },
             "funding": [
                 {
@@ -2140,7 +2175,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-20T21:55:58+00:00"
+            "time": "2022-03-20T21:51:18+00:00"
         },
         {
             "name": "imagine/imagine",
@@ -2430,16 +2465,16 @@
             "dist": {
                 "type": "path",
                 "url": "./DistributionPackages/My.Site",
-                "reference": "8c8c839dd09e5b57621aa1da5f0911ff598e4c4e"
+                "reference": "ae6d7ea31537844f3b16a3ccc256c66f602f74c6"
             },
             "require": {
+                "flowpack/fullpagecache": "^2.1",
                 "neos/neos": "~8.0.0",
                 "neos/neos-ui": "~8.0.0",
                 "neos/redirecthandler-databasestorage": "~5.0",
                 "neos/redirecthandler-neosadapter": "~4.2",
                 "neos/redirecthandler-ui": "~2.4",
-                "neos/seo": "~3.0",
-                "t3n/neos-debug": "*"
+                "neos/seo": "~3.0"
             },
             "type": "neos-site",
             "extra": {
@@ -6150,6 +6185,55 @@
             "time": "2021-12-10T11:20:11+00:00"
         },
         {
+            "name": "shel/neos-terminal",
+            "version": "0.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sebobo/Shel.Neos.Terminal.git",
+                "reference": "667850bd06eaeb53641f966d3cb1ca1c523a84fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sebobo/Shel.Neos.Terminal/zipball/667850bd06eaeb53641f966d3cb1ca1c523a84fc",
+                "reference": "667850bd06eaeb53641f966d3cb1ca1c523a84fc",
+                "shasum": ""
+            },
+            "require": {
+                "neos/neos": "^4.3 || ^5.2 || ^7.0 || ^8.0 || dev-master",
+                "neos/neos-ui": "^4.0 || ^5.2 || ^7.0 || ^8.0 || dev-master",
+                "php": ">=7.2",
+                "symfony/console": "^4.2 || ^5.1"
+            },
+            "type": "neos-plugin",
+            "extra": {
+                "neos": {
+                    "package-key": "Shel.Neos.Terminal"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Shel\\Neos\\Terminal\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Neos CMS Ui terminal for running Eel expressions and other commands",
+            "keywords": [
+                "console",
+                "eel",
+                "flow",
+                "neoscms",
+                "terminal"
+            ],
+            "support": {
+                "issues": "https://github.com/Sebobo/Shel.Neos.Terminal/issues",
+                "source": "https://github.com/Sebobo/Shel.Neos.Terminal/tree/0.7.2"
+            },
+            "time": "2022-04-06T11:31:50+00:00"
+        },
+        {
             "name": "symfony/cache",
             "version": "v6.0.8",
             "source": {
@@ -7538,50 +7622,6 @@
             "time": "2022-01-26T16:32:32+00:00"
         },
         {
-            "name": "t3n/neos-debug",
-            "version": "2.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/t3n/neos-debug.git",
-                "reference": "84ccee39a95a7e364f1b4748a53b42c212772ddd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/t3n/neos-debug/zipball/84ccee39a95a7e364f1b4748a53b42c212772ddd",
-                "reference": "84ccee39a95a7e364f1b4748a53b42c212772ddd",
-                "shasum": ""
-            },
-            "require": {
-                "neos/neos": "^7.0 || ^8.0"
-            },
-            "type": "neos-package",
-            "extra": {
-                "neos": {
-                    "package-key": "t3n.Neos.Debug",
-                    "loading-order": {
-                        "after": [
-                            "neos/neos"
-                        ]
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "t3n\\Neos\\Debug\\": "Classes/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Helper package to visualize debug inforamations for neos including fusion content cache",
-            "support": {
-                "issues": "https://github.com/t3n/neos-debug/issues",
-                "source": "https://github.com/t3n/neos-debug/tree/2.0.4"
-            },
-            "time": "2022-04-07T07:21:00+00:00"
-        },
-        {
             "name": "typo3fluid/fluid",
             "version": "2.7.1",
             "source": {
@@ -7625,7 +7665,112 @@
             "time": "2021-11-12T10:06:45+00:00"
         }
     ],
-    "packages-dev": [],
+    "packages-dev": [
+        {
+            "name": "shel/nodetypes-analyzer",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sebobo/Shel.NodeTypes.Analyzer.git",
+                "reference": "7a40604791fa6dbf9223fa05e4afaee581ca2b35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sebobo/Shel.NodeTypes.Analyzer/zipball/7a40604791fa6dbf9223fa05e4afaee581ca2b35",
+                "reference": "7a40604791fa6dbf9223fa05e4afaee581ca2b35",
+                "shasum": ""
+            },
+            "require": {
+                "neos/neos": "^4.3 || ^5.0 || ^7.0 || ^8.0 || dev-master",
+                "php": ">= 7.3"
+            },
+            "replace": {
+                "shel/contentrepository-debugger": "*"
+            },
+            "type": "neos-package",
+            "extra": {
+                "neos": {
+                    "package-key": "Shel.NodeTypes.Analyzer"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Shel\\NodeTypes\\Analyzer\\": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastian Helzle",
+                    "email": "sebastian@helzle.it",
+                    "homepage": "https://www.helzle.it",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Graphical analysis & visualizer for the Neos CMS nodetypes as backend module",
+            "keywords": [
+                "Neos",
+                "analysis",
+                "charts",
+                "contentrepository",
+                "flow",
+                "neoscms",
+                "visualizer"
+            ],
+            "support": {
+                "issues": "https://github.com/Sebobo/Shel.NodeTypes.Analyzer/issues",
+                "source": "https://github.com/Sebobo/Shel.NodeTypes.Analyzer/tree/1.0.1"
+            },
+            "time": "2022-04-12T08:38:28+00:00"
+        },
+        {
+            "name": "t3n/neos-debug",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/t3n/neos-debug.git",
+                "reference": "84ccee39a95a7e364f1b4748a53b42c212772ddd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/t3n/neos-debug/zipball/84ccee39a95a7e364f1b4748a53b42c212772ddd",
+                "reference": "84ccee39a95a7e364f1b4748a53b42c212772ddd",
+                "shasum": ""
+            },
+            "require": {
+                "neos/neos": "^7.0 || ^8.0"
+            },
+            "type": "neos-package",
+            "extra": {
+                "neos": {
+                    "package-key": "t3n.Neos.Debug",
+                    "loading-order": {
+                        "after": [
+                            "neos/neos"
+                        ]
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "t3n\\Neos\\Debug\\": "Classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Helper package to visualize debug inforamations for neos including fusion content cache",
+            "support": {
+                "issues": "https://github.com/t3n/neos-debug/issues",
+                "source": "https://github.com/t3n/neos-debug/tree/2.0.4"
+            },
+            "time": "2022-04-07T07:21:00+00:00"
+        }
+    ],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {

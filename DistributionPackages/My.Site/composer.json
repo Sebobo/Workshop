@@ -7,7 +7,8 @@
         "neos/seo": "~3.0",
         "neos/redirecthandler-neosadapter": "~4.2",
         "neos/redirecthandler-databasestorage": "~5.0",
-        "neos/redirecthandler-ui": "~2.4"
+        "neos/redirecthandler-ui": "~2.4",
+        "flowpack/fullpagecache": "^2.1"
     },
     "name": "my/site",
     "autoload": {

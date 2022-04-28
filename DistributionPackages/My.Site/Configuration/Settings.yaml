@@ -1,3 +1,8 @@
 My:
   Site:
     example: test
+
+Neos:
+  Fusion:
+    defaultContext:
+      Joke: 'My\Site\Eel\JokeHelper'

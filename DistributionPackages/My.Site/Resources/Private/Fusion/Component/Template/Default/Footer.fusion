@@ -3,8 +3,18 @@ prototype(My.Site:Component.GlobalFooter) < prototype(Neos.Fusion:Renderer) {
 }
 
 prototype(My.Site:Component.GlobalFooter.Renderer) < prototype(Neos.Fusion:Component) {
+  phone = ${q(site).property('phone')}
+  footerLinks = ${q(site).property('footerLinks')}
+
   renderer = afx`
-    <footer>{props.footer}</footer>
+    <footer>
+      Copyright 2022 - {props.phone}
+      <nav>
+        <Neos.Fusion:Loop items={props.footerLinks} itemName="link">
+          <Neos.Neos:NodeLink node={link} />
+        </Neos.Fusion:Loop>
+      </nav>
+    </footer>
   `
 
   @cache {

@@ -1,0 +1,29 @@
+My.Site:Document.Homepage:
+  final: true
+  superTypes:
+    My.Site:Document.Page: true
+  ui:
+    label: Homepage
+    icon: home
+    inspector:
+      groups:
+        site:
+          icon: home
+          label: Site
+  properties:
+    phone:
+      type: string
+      ui:
+        label: Phone
+        reloadPageIfChanged: true
+        inspector:
+          group: site
+    footerLinks:
+      type: references
+      ui:
+        label: Footer Links
+        inspector:
+          group: site
+          editorOptions:
+            nodeTypes:
+              - My.Site:Document.Page

@@ -4,6 +4,9 @@
   ui:
     icon: file
     label: 'My.Site Page'
+  constraints:
+    nodeTypes:
+      My.Site:Document.Homepage: false
   childNodes:
     main:
       type: 'Neos.Neos:ContentCollection'
