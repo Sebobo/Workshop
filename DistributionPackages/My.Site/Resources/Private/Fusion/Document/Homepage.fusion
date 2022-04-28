@@ -4,7 +4,10 @@ prototype(My.Site:Document.Homepage) < prototype(My.Site:Document.AbstractPage) 
       content = Neos.Neos:PrimaryContent {
         nodePath = 'main'
       }
+
+      text = afx`
+        <div>Hier steht noch übersetzter Text: {I18n.translate('test', '', { count: 5 }, 'NodeTypes.Document.Homepage', 'My.Site')}</div>
+      `
     }
-    footer = 'Footer content'
   }
 }

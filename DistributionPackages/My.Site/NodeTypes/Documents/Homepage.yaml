@@ -3,7 +3,7 @@ My.Site:Document.Homepage:
   superTypes:
     My.Site:Document.Page: true
   ui:
-    label: Homepage
+    label: i18n
     icon: home
     inspector:
       groups:

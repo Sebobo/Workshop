@@ -3,26 +3,29 @@
  <site name="Neos Workshop" state="1" siteResourcesPackageKey="My.Site" siteNodeName="my-site">
   <nodes formatVersion="2.0">
    <node identifier="d256328c-eb0b-4072-a19c-2e854baf7ddf" nodeName="my-site">
-    <variant sortingIndex="100" workspace="live" nodeType="My.Site:Document.Page" version="1" removed="" hidden="" hiddenInIndex="">
-     <dimensions>
-      <language>en_US</language>
-     </dimensions>
+    <variant sortingIndex="100" workspace="live" nodeType="My.Site:Document.Homepage" version="4" removed="" hidden="" hiddenInIndex="">
+     <dimensions/>
      <accessRoles __type="array"/>
      <creationDateTime __type="object" __classname="DateTime">2022-04-28T08:27:22+00:00</creationDateTime>
-     <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T08:27:22+00:00</lastModificationDateTime>
+     <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T13:23:34+00:00</lastModificationDateTime>
+     <lastPublicationDateTime __type="object" __classname="DateTime">2022-04-28T13:23:34+00:00</lastPublicationDateTime>
      <properties>
       <title __type="string">Home</title>
       <uriPathSegment __type="string">home</uriPathSegment>
+      <phone __type="string">123434564557647456</phone>
+      <footerLinks __type="array">
+       <entry0 __type="string">676cbd31-5886-4b99-a39c-f789b51d3efc</entry0>
+       <entry1 __type="string">c5c9ea38-0c19-4889-8e37-d4144b4a9fa7</entry1>
+      </footerLinks>
      </properties>
     </variant>
     <node identifier="6a733591-fe55-4c15-9262-fb92ed0748b2" nodeName="main">
-     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="1" removed="" hidden="" hiddenInIndex="">
-      <dimensions>
-       <language>en_US</language>
-      </dimensions>
+     <variant sortingIndex="100" workspace="live" nodeType="Neos.Neos:ContentCollection" version="2" removed="" hidden="" hiddenInIndex="">
+      <dimensions/>
       <accessRoles __type="array"/>
       <creationDateTime __type="object" __classname="DateTime">2022-04-28T08:27:22+00:00</creationDateTime>
-      <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T08:27:22+00:00</lastModificationDateTime>
+      <lastModificationDateTime __type="object" __classname="DateTime">2022-04-28T13:19:12+00:00</lastModificationDateTime>
+      <lastPublicationDateTime __type="object" __classname="DateTime">2022-04-28T13:19:12+00:00</lastPublicationDateTime>
       <properties/>
      </variant>
      <node identifier="e476d109-7e39-4f49-acd5-0859be15c3e9" nodeName="node-kbh8ud0q3a728">

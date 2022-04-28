@@ -6,3 +6,9 @@ Neos:
   Fusion:
     defaultContext:
       Joke: 'My\Site\Eel\JokeHelper'
+  Neos:
+    userInterface:
+      translation:
+        autoInclude:
+          My.Site:
+            - 'NodeTypes/*'
