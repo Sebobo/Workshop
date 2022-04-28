@@ -1,0 +1,8 @@
+My.Site:Mixins.Image:
+  abstract: true
+  properties:
+    image:
+      type: Neos\Media\Domain\Model\ImageInterface
+      ui:
+        label: Image
+        reloadIfChanged: true

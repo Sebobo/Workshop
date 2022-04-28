@@ -1,0 +1,10 @@
+prototype(My.Site:Content.Image) < prototype(Neos.Neos:ContentComponent) {
+  image = Neos.Neos:ImageTag {
+    asset = ${q(node).property('image')}
+    maximumWidth = 200
+  }
+
+  renderer = afx`
+    <div>{props.image}</div>
+  `
+}

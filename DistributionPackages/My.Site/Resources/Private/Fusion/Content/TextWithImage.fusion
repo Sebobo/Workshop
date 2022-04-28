@@ -1,0 +1,17 @@
+prototype(My.Site:Content.TextWithImage) < prototype(Neos.Neos:ContentComponent) {
+  image = Neos.Neos:ImageTag {
+    asset = ${q(node).property('image')}
+    maximumWidth = 200
+  }
+
+  text = Neos.Neos:Editable {
+    property = 'text'
+  }
+
+  renderer = afx`
+    <div>
+      {props.text}
+      {props.image}
+    </div>
+  `
+}

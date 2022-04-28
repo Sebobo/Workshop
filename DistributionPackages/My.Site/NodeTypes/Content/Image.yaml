@@ -1,0 +1,19 @@
+My.Site:Content.Image:
+  final: true
+  superTypes:
+    Neos.Neos:Content: true
+    My.Site:Constraints.Page.Main: true
+    My.Site:Mixins.Image: true
+  ui:
+    icon: picture
+    label: Image
+    inspector:
+      groups:
+        image:
+          label: Image
+          icon: picture
+  properties:
+    image:
+      ui:
+        inspector:
+          group: image

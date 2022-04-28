@@ -1,0 +1,20 @@
+My.Site:Content.TextWithImage:
+  superTypes:
+    Neos.Neos:Content: true
+    My.Site:Constraints.Page.Main: true
+    My.Site:Mixins.Text: true
+    My.Site:Mixins.Image: true
+  ui:
+    label: Text with image
+    icon: picture
+    inspector:
+      groups:
+        image:
+          label: Image
+          icon: picture
+  properties:
+    image:
+      ui:
+        inspector:
+          group: image
+

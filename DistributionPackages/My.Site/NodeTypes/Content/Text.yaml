@@ -1,0 +1,9 @@
+My.Site:Content.Text:
+  final: true
+  superTypes:
+    Neos.Neos:Content: true
+    My.Site:Constraints.Page.Main: true
+    My.Site:Mixins.Text: true
+  ui:
+    icon: font
+    label: Text

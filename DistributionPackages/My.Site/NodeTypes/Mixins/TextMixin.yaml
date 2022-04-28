@@ -1,0 +1,7 @@
+My.Site:Mixins.Text:
+  abstract: true
+  properties:
+    text:
+      type: string
+      ui:
+        inlineEditable: true
