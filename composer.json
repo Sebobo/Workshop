@@ -11,8 +11,7 @@
         }
     },
     "require": {
-        "my/site": "@dev",
-        "shel/neos-terminal": "^0.7.2"
+        "my/site": "@dev"
     },
     "repositories": {
         "distributionPackages": {
